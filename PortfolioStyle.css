@@ -2,6 +2,7 @@ body, html {
     margin: 0px;
     padding: 0px;
     height: 100%;
+    
 }
 .nav-bar {
     width: 100%;
@@ -22,6 +23,7 @@ body, html {
     color: #ffffff;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
+    cursor: pointer;
     
 }
 .head-item:hover {
@@ -129,12 +131,15 @@ img {
     background-image: url("http://i67.tinypic.com/mcrxh5.jpg");
     background-repeat: no-repeat;
     margin-top: 0px;
+    
 }
 b {
     margin-top: 50px;
     font-size: 50px;
     color: peru;
     margin-left: 50px;
+    margin-left: 100px;
+    font-style: italic;
 }
 #tracking {
     width: 100px;
@@ -144,4 +149,241 @@ b {
     line-height: 2;
     position: fixed;
     z-index: 4;
+}
+#bck {
+    color: peru;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-left: 100px;
+}
+#art {
+    width: 700px;
+    height: auto;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #212121;
+    margin-left: 100px;
+    font-weight: bold;
+    font-stretch: expanded; 
+    
+}
+#edu {
+    width: 550px;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 100px;
+    color: #212121;
+    position: absolute;
+}
+#ed-head {
+    color: royalblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin-bottom: 100px;
+}
+#ed-art {
+    font-size: 20px;
+    font-weight: bold;
+    color: #212121;
+}
+.ed-details {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #212121;
+}
+#ed-details1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+#ed-art2 {
+    font-weight: bold;
+    font-size: 20px;
+}
+#exp-head {
+    color: royalblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin-bottom: 100px;
+}
+#exp {
+    width: 550px;
+    height: 400px;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 100px;
+}
+.com-details {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #212121;
+}
+.com-name {
+    font-weight: bold;
+    color: #212121;
+}
+#exp-date {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #212121;
+}
+h3 {
+    color: #212121;
+}
+.exp-content {
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-bottom: 50px;
+}
+#skills {
+    height: auto;
+    width: 100%;
+    margin-top: 1200px;
+    background-color: #212121;
+    display: inline-grid;
+    grid-template-columns: 200px 600px;
+    grid-template-rows: repeat(12, 80px[all-rows]);
+    grid-template-areas: 
+    "item1 item-1"
+    "item2 item-2"
+    "item3 item-3"
+    "item4 item-4"
+    "item5 item-5"
+    "item6 item-6"
+    "item7 item-7"
+    "item8 item-8"
+    "lining endLining"
+    "item9 item-9"
+    "item10 item-10"
+    "item11 item-11";
+    
+    
+
+}
+.item-1 {
+    grid-area: item1;
+}
+.item-2 {
+    grid-area: item2;
+}
+.item-3 {
+    grid-area: item3;
+}
+.item-4 {
+    grid-area: item4;
+}
+.item-5 {
+    grid-area: item5;
+}
+.item-6 {
+    grid-area: item6
+}
+.item-7 {
+    grid-area: item7;
+}
+.item-8 {
+    grid-area: item8
+}
+.item-9 {
+    grid-area: item9;
+}
+.item-10 {
+    grid-area: item10;
+}
+.item-11 {
+    grid-area: item11;
+}
+.item1 {
+    grid-area: item-1;
+}
+.item2 {
+    grid-area: item-2;
+}
+.item3 {
+    grid-area: item-3;
+}
+.item4 {
+    grid-area: item-4;
+}
+.item5 {
+    grid-area: item-5;
+}
+.item6 {
+    grid-area: item-6;
+}
+.item7 {
+    grid-area: item-7
+}
+.item8 {
+    grid: item-8;
+}
+.item9 {
+    grid-area: item-9;
+}
+.item10 {
+    grid-area: item-10;
+}
+.item11 {
+    grid-area: item-11;
+}
+.line {
+    grid-area: lining;
+}
+.end-line {
+    grid-area: endLining;
+}
+.skills {
+    color: #ffffff;
+    justify-self: center;
+    align-self: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.level {
+    justify-self: center;
+    align-self: center;
+}
+
+.prog {
+    height: 5px;
+    width: 600px;
+    background-color: green;
+    transition: 20s ease-out;
+}
+.gr {
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff;
+}
+.gr-end {
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff
+}
+.head-skills {
+    background-color: #212121;
+    width: 400px;
+    height: 50px;
+    color: #ffffff;
+    text-align: center;
+    font-family: monospace;
+    font-size: 25px;
+    border-radius: 50px 50px 0 0;
+    position: absolute;
+    line-height: 0;
+    margin-top: 1150px;
+    margin-left: 0px;
+}
+
+.conta {
+    width: 600px;
+    height: 5px;
+    background-color: gray;
+    
+}
+.arowing {
+    width: 1px;
+    background-color: #4caf50;
+    height: 5px;
+}
+.arowing2, .arowing3, .arowing4, .arowing5, .arowing6, .arowing7, .arowing8, .arowing9, .arowing10, .arowing11{
+    width: 1px;
+    background-color: #4caf50;
+    height: 5px;
 }
