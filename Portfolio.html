@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title> Portfolio </title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel = "stylesheet" type = "text/css" href = "style/PortfolioStyle.css" media = "screen"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-</head>
+  <head>
+    <title> Portfolio </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type = "text/css" href = "style/PortfolioStyle.css" media = "screen"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
 
 <body>
 <div id = "tracking"></div>
@@ -23,10 +23,10 @@
         <button class="btn"><i class="fa fa-download"></i> <a href = "https://files.fm/f/n8dbpzbu" ></a> Download CV</button>
     </div>
     <div class = "nav-bar">
-        <a href = "#" class = "head-item">About</a>
-        <a href = "#" class = "head-item">Education & Experience</a>
-        <a href = "#" class = "head-item">Skills & Languages</a>
-        <a href = "#" class = "head-item">Awards & Intersets</a>
+        <a class = "head-item" id = "ab">About</a>
+        <a class = "head-item" id = "ed">Education & Experience</a>
+        <a class = "head-item" id = "sk">Skills & Languages</a>
+        <a class = "head-item" id = "aw">Awards & Intersets</a>
     </div>
 </header>
 <div class = "parallax">
@@ -38,6 +38,70 @@
 <section>
     <div id = "about">
         <b>About</b>
+        <p id = "bck">My Background</p>
+        <article>
+            <p id = "art">
+                Experienced Quality Analyst with a demonstrated history of working in the information technology and services industry. Skilled in Network Administration, Internet Protocol Suite (TCP/IP), Cascading Style Sheets (CSS), Technical Support, and HTML. Strong quality assurance professional with a Bachelor's degree focused in Administrative computer system from higher institute of computer science and management technology in Cairo, Dev JavaScript at Codepen and Stack OverFlow.
+            </p>
+        </article>
+    </div>
+</section>
+<section class = "edu-exp">
+    <div id = "edu">
+        <h1 id = "ed-head">Education</h1>
+        <p class = "ed-details">2005 -2009</p>
+        <p class = "ed-details"><span id = "ed-art">Bachelor of Science , computer science and administration technology.</span><br>
+         University of Cairo － Cairo, Egypt Bachelor's degree in computer science and administration technology.</p>
+         <p id = "ed-details1">2009 - 2010</p>
+         <p class = "ed-details"><span id = "ed-art2">Associate of Science , Securing IoT Data and Communications</span><br>
+            Associate of Science , Securing IoT Data and Communications.</p>  
+    </div>
+    <div id = "exp">
+        <h1 id = "exp-head">Experience</h1>
+        <p class = "exp-date">Jan 2015 to Current</p>
+        <h3>Senior Data Analyst</h3>
+        <p class = "com-details"><span class = "com-name">Accenture</span> - Warsaw, Poland</p>
+        <p class = "exp-content">responsibility : Interpret data, analyze results using statistical techniques and provide ongoing reports.-Develop and implement databases, data collection systems, data analytics and other strategies that optimize statistical efficiency and quality.Identify, analyze, and interpret trends or patterns in complex data sets. -Work with management to prioritize business and information needs.</p>
+        <p class = "exp-date">Jan 2009 to Jan 2010</p>
+        <h3>Database Designer </h3>
+        <p class = "com-details"><span class = "com-name">RayaTelecome</span> - Cairo, Egypt</p>
+        <p class = "exp-content">responsibility : organization and focus mainly on the programming aspect of database design, analyzing data inquiry needs, ensuring security of information and organizing layout to best present the information needed. </p>
+        <p class = "exp-date">Jan 2008 to Nov 2008</p>
+        <h3>Data Collector</h3>
+        <p class = "com-details"><span class = "com-name">EgyNet</span> - Cairo, Egypt</p>
+        <p class = "exp-content">responsibility : Performing day-to-day data collection activities. Contacting randomly selected participants to discuss the survey and the participant's involvement. Responding to questions the participant may have about the survey.
+        </p>
+    </div>
+</section>
+<section>
+    <div class = "head-skills">
+        <h1 id = "skillsHead">Skills & Languages</h1>
+    </div>
+    <div id = "skills">
+        <div class = " skills item-1">Data Analysis</div>
+        <div class = " skills item-2">JavaScript & ES6</div>
+        <div class = " skills item-3">React.js</div>
+        <div class = " skills item-4">Html5</div>
+        <div class = " skills item-5">Css3</div>
+        <div class = " skills item-6">Git & GitHub</div>
+        <div class = " skills item-7">Social Media management</div>
+        <div class = " skills item-8">MS</div>
+        <div class = "line"><div class = "gr"></div></div>
+        <div class = "skills item-9">Arabic</div>
+        <div class = "skills item-10">English</div>
+        <div class = "skills item-11">Polish</div>
+        <div class = "level item1"><div class = "conta"><div class = "arowing"></div></div></div>
+        <div class = "level item2"><div class = "conta"><div class = "arowing2"></div></div></div>
+        <div class = "level item3"><div class = "conta"><div class = "arowing3"></div></div></div>
+        <div class = "level item4"><div class = "conta"><div class = "arowing4"></div></div></div>
+        <div class = "level item5"><div class = "conta"><div class = "arowing5"></div></div></div>
+        <div class = "level item6"><div class = "conta"><div class = "arowing6"></div></div></div>
+        <div class = "level item7"><div class = "conta"><div class = "arowing7"></div></div></div>
+        <div class = "level item8"><div class = "conta"><div class = "arowing8"></div></div></div>
+        <div class = "end-line"><div class = "gr-end"></div></div>
+        <div class = "level item9"><div class = "conta"><div class = "arowing9"></div></div></div>
+        <div class = "level item10"><div class = "conta"><div class = "arowing10"></div></div></div>
+        <div class = "level item11"><div class = "conta"><div class = "arowing11"></div></div></div>
     </div>
 </section>
 
@@ -45,7 +109,7 @@
 
 
 
-<script type = "text/javascript" src = "ES/script.js"></script>
+<script type = "text/javascript" src = "ES6/script.js"></script>
 
 
 </body>
