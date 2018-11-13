@@ -42,6 +42,9 @@ function navigationb(e) {
     if (targeting.id == "sk") {
         window.scrollBy(0, 2353);
     }
+    if (targeting.id == "aw") {
+        window.scrollBy(0, 3365);
+    }
     
 }
 
